@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DNAuth">
+      <UniqueIdentifier>{6aed9ba7-3658-435b-97c0-9d410cc972dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{5fafee2c-524a-4e47-95c2-7ff80e09b959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CIniFile">
+      <UniqueIdentifier>{b1a13c3c-a6de-462f-b8bd-e64ea3b086ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DNAuth.cpp">
+      <Filter>DNAuth</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="CIniFile.cpp">
+      <Filter>CIniFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DNAuth.h">
+      <Filter>DNAuth</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="CIniFile.h">
+      <Filter>CIniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DNAuth.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DNAuth.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
